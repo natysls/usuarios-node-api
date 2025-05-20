@@ -6,11 +6,12 @@ API simples para gerenciamento de usuários usando Node.js, Express e Prisma ORM
 
 ## Tecnologias usadas
 
-- Node.js
-- Express
-- Prisma ORM
-- MongoDB
-- Thunder Client (VSC)
+- **Node.js** – Ambiente onde o backend roda.
+- **Express** – Framework leve pra criar rotas e lidar com requisições.
+- **Prisma ORM** – Facilita o acesso e manipulação do banco de dados.
+- **MongoDB** – Banco de dados NoSQL usado no projeto.
+- **Thunder Client (VSCode)** – Extensão do VSCode pra testar as rotas da API de
+
 
 ---
 
@@ -50,7 +51,7 @@ node --watch server.js
 npx prisma studio  
 ```
 
-A API estará disponível em `http://localhost:3000`, e pode ser testada facilmente utilizando o Thunder Client, um plugin do Visual Studio Code. No entanto, esta API será consumida futuramente por uma aplicação frontend desenvolvida em React.js.
+A API estará disponível em `http://localhost:3000`, e pode ser testada facilmente utilizando o Thunder Client, um plugin do Visual Studio Code. No entanto, essa API será consumida pela aplicação frontend ReactJS disponível em [natysls/cadastro-usuarios-web](https://github.com/natysls/cadastro-usuarios-web).
 
 ---
 
